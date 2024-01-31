@@ -13,5 +13,7 @@ public class Main {
 		risadaR = sb.reverse().toString();
 		
 		System.out.println(risada.equals(risadaR) ? "S" : "N");
+		
+		ler.close();
 	}
 }
